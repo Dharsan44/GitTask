@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           subject: "GitTask Repository Changed"
-          to: niviesh11@gmail.com
+          to: dharsan.loganathan44@gmail.com
           from: ${{ secrets.SMTP_USERNAME }}
           secure: true
           body: |
